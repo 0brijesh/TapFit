@@ -706,6 +706,8 @@ background-color: #F7F7FB;
   border-radius: 100%;
   background-color: var(--white-color);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 0;
+  transform: translateY(-50%);
   transition: all 0.3s;
 }
 .swiper-button-next:after, .swiper-button-prev:after{
@@ -725,4 +727,64 @@ background-color: #F7F7FB;
 .swiper-button-next:hover svg, .swiper-button-prev:hover svg{
   fill: var(--white-color);
 }
+.count-number-wrap{
+  max-width: 1100px;
+  margin: 130px auto 0;
+}
+.count-number-col{
+  width: calc(100% / 3);
+  text-align: center;
+}
+.count-number-col h3{
+  font-weight: 700;
+  font-size: 70px;
+  color: var(--primary-color);
+}
+.count-number-col p{
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--text-color);
+}
 /* people-world-wide-section end */
+/* tapfit-containt-wrap start */
+/* .tapfit-containt-wrap{
+  max-width: 535px;
+} */
+.tapfit-containt-wrap.left{
+  padding-left: 12%;
+  padding-right: 27%;
+}
+.tapfit-containt-wrap.right{
+  padding-left: 27%;
+  padding-right: 12%;
+}
+.tapfit-containt-wrap h6{
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--black-color);
+  margin-bottom: 24px;
+}
+.tapfit-containt-wrap h2{
+  font-weight: 600;
+  font-size: 70px;
+  color: var(--black-color);
+  margin-bottom: 36px;
+}
+.tapfit-containt-wrap p{
+  margin-bottom: 50px;
+}
+.tapfit-ico {
+  min-width: 28px;
+  min-height: 24px;
+}
+.tapfit-list li a{
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--black-color);
+}
+.tapfit-list{
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px 80px;
+  margin-bottom: 70px;
+}
+/* tapfit-containt-wrap end */
