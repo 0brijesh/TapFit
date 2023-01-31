@@ -34,6 +34,7 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --text-color: #1e1449;
+  --bg-gray: #F7F7FB;
   /* Font Family */
   --primary-font: "Lato", sans-serif;
   /* spacing */
@@ -643,7 +644,7 @@ footer {
 }
 /* people-world-wide-section start */
 .people-world-wide-section{
-background-color: #F7F7FB;
+  background-color: var(--bg-gray);
 }
 .people-world-swiper-wrap{
   max-width: 1100px;
@@ -788,3 +789,88 @@ background-color: #F7F7FB;
   margin-bottom: 70px;
 }
 /* tapfit-containt-wrap end */
+/* plan-section start */
+.plan-section::after{
+  content: '';
+  background-color: var(--bg-gray);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+}
+.plan-box-grid{
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-top: 70px;
+}
+.plan-box-col{
+  background-color: var(--white-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.plan-box-containt{
+  padding: 40px;
+}
+.plan-box-containt h6{
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--text-color);
+  margin-bottom: 4px;
+}
+.plan-box-containt h4{
+  font-weight: 700;
+  font-size: 80px;
+  color: var(--text-color);
+  margin-bottom: 25px;
+}
+.plan-box-containt h4 small{
+  font-size: 30px;
+}
+.frre-trial-wrap{
+  background-color: var(--primary-color);
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--white-color);
+  padding: 15px;
+  border-top: 1px solid transparent;
+  transition: all 0.3s;
+}
+.frre-trial-wrap:hover{
+  border-color: var(--primary-color);
+  background-color: var(--bg-gray);
+}
+.plan-details-section{
+  padding: 350px 12px 115px;
+  margin-top: -320px;
+}
+.plan-details-grid{
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px 94px;
+  margin-bottom: 100px;
+}
+.plan-details-col .ico{
+  min-width: 36px;
+  min-width: 36px;
+  width: 36px;
+  height: 36px;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+}
+.plan-containt{
+  width: calc(100% - 36px);
+  padding-left: 16px;
+}
+.plan-containt h5{
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+.plan-containt p{
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--white-color);
+}
+/* plan-section end */
