@@ -57,7 +57,7 @@
 }
 /* selction css */
 ::selection {
-  background: var(--accent-color0);
+  background: var(--primary-color);
   color: var(--white-color);
 }
 /* selction css */
@@ -215,7 +215,7 @@ section {
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 30px;
-  min-width: 190px;
+  min-width: 160px;
   min-height: 50px;
   font-size: 18px;
   font-weight: 700;
@@ -232,6 +232,11 @@ section {
   box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.24);
   background: var(--secondary-color);
   border-color: var(--secondary-color);
+}
+.primary-btn-white-hover:hover {
+  background: var(--white-color);
+  border-color: var(--white-color);
+  color: var(--primary-color);
 }
 .secondary-btn {
   background: var(--secondary-color);
@@ -551,13 +556,84 @@ footer {
   font-weight: 700;
   color: var(--text-color);
 }
+.service-box-col{
+  padding: 30px;
+  border: 1px solid var(--white-color);
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.service-box-col:hover{
+  background-color: #f1f1f1;
+  border-color: var(--primary-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.service-box-col h5{
+  font-size: 30px;
+}
+.service-box-col p{
+  font-size: 22px;
+}
 /* service-section end */
 /* phone-btn-wrap start */
 .phone-containt-wrap {
-  max-width: 300px;
+  max-width: 580px;
 }
 .phone-btn-wrap .socail-app-img {
-  max-width: 130px;
+  max-width: 150px;
   transition: all 0.3s;
 }
+.phone-containt-wrap .heading-title{
+  font-size: 100px;
+  line-height: 110%;
+}
+.phone-containt-wrap .heading-title-label {
+  font-size: 30px;
+}
 /* phone-btn-wrap end */
+/* hero-section start */
+.hero-section{
+  background-color: #031334;
+  overflow-x: hidden;
+}
+.hero-section h2{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: center;
+  color: var(--white-color);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.hero-section p{
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 45px;
+  text-align: center;
+  color: var(--white-color);
+  margin: 0 0 50px 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
+.web-hero-img{
+  max-width: 700px;
+}
+.hero-mobile-img {
+  max-width: 450px;
+}
+.hero-content {
+  max-width: 640px;
+  text-align: center;
+  position: relative;
+  left: -100px;
+}
+/* hero-section end */
+.line-hr{
+  border-color: #EAE9F1;
+  opacity: 1;
+}
+/* people-world-wide-section start */
+/* people-world-wide-section end */
