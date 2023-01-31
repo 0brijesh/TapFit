@@ -56,33 +56,15 @@ AOS.init();
 // });
 // ripple effect js end
 // swiper js start
-var swiper = new Swiper(".review-swiper", {
-  slidesPerView: 3,
-  spaceBetween: 86,
+var swiper = new Swiper(".people-world-swiper", {
+  slidesPerView: 1,
+  spaceBetween: 50,
   slidesPerGroup: 3,
   loop: false,
   loopFillGroupWithBlank: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 10,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 40,
-    },
-    992: {
-      slidesPerView: 3,
-      spaceBetween: 40,
-    },
-    1200: {
-      slidesPerView: 3,
-      spaceBetween: 86,
-    },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
 // swiper js end

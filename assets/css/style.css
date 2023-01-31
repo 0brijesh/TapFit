@@ -84,6 +84,12 @@ a:hover {
 .active-page {
   color: var(--primary-color);
 }
+.primary-color{
+  transition: all 0.3s;
+}
+.primary-color:hover{
+  color: var(--primary-color) !important;
+}
 .hover-txt-black:hover {
   color: var(--black-color) !important;
 }
@@ -105,7 +111,7 @@ h6 {
   margin-bottom: 0;
 }
 p {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   color: var(--text-color);
 }
@@ -265,7 +271,7 @@ section {
   padding: 7px 16px;
   min-height: 55px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--black-color);
   text-align: left;
 }
@@ -275,7 +281,7 @@ section {
   padding: 16px;
 }
 label {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: var(--text-color);
   text-align: left;
@@ -490,7 +496,7 @@ header.fixed .list-menu li a::before {
 }
 header ul li a {
   font-family: var(--primary-font);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   text-align: center;
   text-transform: capitalize;
@@ -636,4 +642,87 @@ footer {
   opacity: 1;
 }
 /* people-world-wide-section start */
+.people-world-wide-section{
+background-color: #F7F7FB;
+}
+.people-world-swiper-wrap{
+  max-width: 1100px;
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow: 0px 80px 200px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  border: 1px solid var(--white-color);
+  margin: 70px auto 0;
+}
+.people-world-swiper-wrap:hover{
+  border-color: var(--primary-color);
+}
+.people-world-swiper-wrap .profile-wrap-box{
+  width: 380px;
+  height: 440px;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.people-world-containt{
+  width: calc(100% - 380px);
+  text-align: center;
+  padding: 0 15px;
+}
+.people-world-containt .quote-img{
+  margin-bottom: 30px;
+}
+.people-world-containt p{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  color: var(--black-color);
+  margin-bottom: 36px;
+}
+.people-world-containt a{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--black-color);
+  margin-bottom: 8px;
+}
+.people-world-containt span{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--black-color);
+}
+.people-world-inner-containt{
+  max-width: 390px;
+}
+.people-world-swiper:hover a{
+  color: var(--primary-color);
+}
+.swiper-button-next, .swiper-button-prev {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: var(--white-color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 0.3s;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+  content: unset;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: -40px;
+  right: auto;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: -40px;
+  left: auto;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  background-color: var(--primary-color);
+}
+.swiper-button-next:hover svg, .swiper-button-prev:hover svg{
+  fill: var(--white-color);
+}
 /* people-world-wide-section end */
