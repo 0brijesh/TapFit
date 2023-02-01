@@ -26,15 +26,134 @@
 }
 @media (max-width: 1799px) {
   .hero-content {
-    max-width: 550px;
+    max-width: 500px;
   }
   .heading-title.big-heading-title {
     font-size: 50px;
+  }
+  .hero-mobile-img {
+    max-width: 350px;
+  }
+  .web-hero-img {
+    max-width: 610px;
+  }
+  .hero-section h2 {
+    font-size: 50px;
+    line-height: inherit;
+  }
+  .hero-section p {
+    font-size: 25px;
+    line-height: inherit;
+  }
+  .phone-containt-wrap .heading-title {
+    font-size: 80px;
+  }
+  .phone-containt-wrap {
+    max-width: 500px;
+  }
+  .phone-img0{
+    max-width: 400px;
+  }
+  .count-number-col h3 {
+    font-size: 50px;
+  }
+  .count-number-wrap {
+    margin: 100px auto 0;
+  }
+  .count-number-col p{
+    font-size: 24px;
+  }
+  .tapfit-containt-wrap.left {
+    padding-right: 10%;
+  }
+  .tapfit-containt-wrap.right {
+    padding-left: 10%;
+  }
+  .tapfit-containt-wrap h2 {
+    font-size: 60px;
+  }
+  .tapfit-containt-wrap h6 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .plan-containt h5{
+    font-size: 30px;
+  }
+  .plan-containt p{
+    font-size: 20px;
   }
 }
 @media (max-width: 1599px) {
   :root {
     --section-spacing: 100px;
+  }
+  .web-hero-img {
+    max-width: 450px;
+  }
+  .hero-mobile-img {
+    max-width: 300px;
+  }
+  .hero-content {
+    max-width: 450px;
+  }
+  .hero-section h2 {
+    font-size: 40px;
+    line-height: inherit;
+  }
+  .hero-section p {
+    font-size: 20px;
+  }
+  .company-logo-section {
+    padding: 15px 12px;
+  }
+  .company-logo-img-col .clogo0{
+    max-width: 80px;
+  }
+  .company-logo-img-col .clogo1{
+    max-width: 150px;
+  }
+  .company-logo-img-col .clogo2{
+    max-width: 70px;
+  }
+  .company-logo-img-col .clogo3{
+    max-width: 80px;
+  }
+  .company-logo-img-col .clogo4{
+    max-width: 70px;
+  }
+  .primary-btn {
+    min-width: 150px;
+    min-height: 45px;
+    font-size: 17px;
+  }
+  :root{
+    --section-extra-big-spacing: 130px;
+    --section-big-spacing: 80px;
+    --section-mid-spacing: 60px;
+  }
+  .service-box-col img{
+    max-width: 70px;
+  }
+  .service-box-col h5 {
+    font-size: 24px;
+  }
+  .service-box-col p {
+    font-size: 18px;
+  }
+  .service-box-col {
+    padding: 20px;
+  }
+  .phone-containt-wrap .heading-title {
+    font-size: 60px;
+  }
+  .phone-containt-wrap .heading-title-label {
+    font-size: 24px;
+  }
+  .phone-containt-wrap {
+    max-width: 380px;
+  }
+  .phone-img0 {
+    max-width: 370px;
   }
 }
 @media (max-width: 1365px) {

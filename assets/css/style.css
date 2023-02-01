@@ -572,7 +572,7 @@ footer {
 .service-box-col:hover{
   background-color: #f1f1f1;
   border-color: var(--primary-color);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .service-box-col h5{
   font-size: 30px;
@@ -807,7 +807,6 @@ footer {
 .plan-box-col{
   background-color: var(--white-color);
   border-radius: 12px;
-  overflow: hidden;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .plan-box-containt{
@@ -835,6 +834,7 @@ footer {
   color: var(--white-color);
   padding: 15px;
   border-top: 1px solid transparent;
+  border-radius: 0 0 9px 9px;
   transition: all 0.3s;
 }
 .frre-trial-wrap:hover{
@@ -871,6 +871,21 @@ footer {
 .plan-containt p{
   font-weight: 400;
   font-size: 25px;
+  color: var(--white-color);
+}
+.save-label{
+  min-width: 140px;
+  min-height: 40px;
+  background: #EC2359;
+  border-radius: 20px;
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+.save-label span{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
   color: var(--white-color);
 }
 /* plan-section end */
