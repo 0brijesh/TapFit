@@ -567,11 +567,11 @@ footer {
   border-radius: 15px;
   transition: all 0.3s;
 }
-.service-box-col:hover{
+/* .service-box-col:hover{
   background-color: #f1f1f1;
   border-color: var(--primary-color);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+} */
 .service-box-col h5{
   font-size: 30px;
   font-weight: 700;
@@ -582,19 +582,19 @@ footer {
 /* service-section end */
 /* phone-btn-wrap start */
 .phone-containt-wrap {
-  max-width: 580px;
+  max-width: 510px;
 }
 .phone-btn-wrap .socail-app-img {
   max-width: 150px;
   transition: all 0.3s;
 }
 .phone-containt-wrap .heading-title{
-  font-size: 100px;
+  font-size: 80px;
   line-height: 110%;
 }
-.phone-containt-wrap .heading-title-label {
+/* .phone-containt-wrap .heading-title-label {
   font-size: 30px;
-}
+} */
 /* phone-btn-wrap end */
 /* hero-section start */
 .hero-section{
@@ -614,7 +614,7 @@ footer {
   overflow: hidden;
 }
 .hero-section p{
-  font-weight: 600;
+  font-weight: 400;
   font-size: 35px;
   line-height: 45px;
   text-align: center;
@@ -654,9 +654,11 @@ footer {
   border-radius: 20px;
   border: 1px solid var(--white-color);
   margin: 70px auto 0;
+  transition: all 0.3s;
 }
 .people-world-swiper-wrap:hover{
-  border-color: var(--primary-color);
+  /* border-color: var(--primary-color); */
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 .people-world-swiper-wrap .profile-wrap-box{
   width: 380px;
@@ -858,6 +860,8 @@ footer {
   height: 36px;
   background-color: var(--primary-color);
   border-radius: 100%;
+  position: relative;
+  top: 3px;
 }
 .plan-containt{
   width: calc(100% - 36px);
@@ -865,13 +869,13 @@ footer {
 }
 .plan-containt h5{
   font-weight: 700;
-  font-size: 35px;
+  font-size: 28px;
   color: var(--white-color);
   margin-bottom: 16px;
 }
 .plan-containt p{
   font-weight: 400;
-  font-size: 25px;
+  font-size: 18px;
   color: var(--white-color);
 }
 .save-label{

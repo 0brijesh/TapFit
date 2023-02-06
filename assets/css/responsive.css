@@ -25,9 +25,9 @@
   }
 }
 @media (max-width: 1799px) {
-  .hero-content {
+  /* .hero-content {
     max-width: 500px;
-  }
+  } */
   .heading-title.big-heading-title {
     font-size: 50px;
   }
@@ -37,10 +37,10 @@
   .web-hero-img {
     max-width: 610px;
   }
-  .hero-section h2 {
+  /* .hero-section h2 {
     font-size: 50px;
     line-height: inherit;
-  }
+  } */
   .hero-section p {
     font-size: 25px;
     line-height: inherit;
@@ -76,20 +76,20 @@
     font-size: 30px;
     margin-bottom: 5px;
   }
-  .plan-containt h5{
+  /* .plan-containt h5{
     font-size: 30px;
   }
   .plan-containt p{
     font-size: 20px;
-  }
+  } */
   .web-hero-img {
     max-width: 580px;
   }
   .hero-mobile-img {
-    max-width: 380px;
+    max-width: 350px;
   }
   .hero-content {
-    max-width: 560px;
+    max-width: 620px;
   }
   .company-logo-section {
     padding: 15px 12px;
@@ -109,6 +109,9 @@
   .company-logo-img-col .clogo4{
     max-width: 70px;
   }
+  .phone-img0{
+    max-width: 450px;
+  }
 }
 @media (min-width: 1600px){
   .plan-details-col > div{
@@ -117,13 +120,13 @@
 }
 @media (max-width: 1599px) {
   .web-hero-img {
-    max-width: 540px;
+    max-width: 480px;
   }
   .hero-mobile-img {
-    max-width: 350px;
+    max-width: 290px;
   }
   .hero-content {
-    max-width: 520px;
+    max-width: 620px;
   }
   /* .hero-section h2 {
     font-size: 40px;
@@ -167,7 +170,7 @@
     max-width: 370px;
   } */
   .phone-img0 {
-    max-width: 450px;
+    max-width: 420px;
   } 
   .heading-title,.tapfit-containt-wrap h2{
     font-size: 40px;
@@ -203,19 +206,23 @@
     margin-bottom: 15px;
   }
   .plan-containt h5 {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: inherit;
   }
   .plan-details-grid {
     grid-gap: 40px 74px;
     margin-bottom: 70px;
   }
+  .plan-details-col .ico{
+    top: 0;
+  }
 }
 @media (max-width: 1439px){
   .web-hero-img {
-    max-width: 470px;
+    max-width: 440px;
   }
   .hero-mobile-img {
-    max-width: 320px;
+    max-width: 260px;
   }
   /* .hero-content {
     max-width: 500px;
@@ -226,10 +233,13 @@
     margin-right: 45px;
   }
   .web-hero-img {
-    max-width: 420px;
+    max-width: 400px;
   }
+  /* .hero-content {
+    max-width: 620px;
+  } */
   .hero-mobile-img {
-    max-width: 300px;
+    max-width: 220px;
   }
   /* .hero-content {
     max-width: 450px;
@@ -248,11 +258,11 @@
   /* .hero-mobile-img {
     max-width: 280px;
   } */
-  .hero-content {
+  /* .hero-content {
     max-width: 430px;
-  }
+  } */
   .hero-section h2 {
-    font-size: 32px;
+    font-size: 50px;
   }
   .tapfit-containt-wrap.left {
     padding-left: 7%;
@@ -303,6 +313,7 @@
   }
   .hero-section h2 {
     font-size: 27px;
+    line-height: inherit;
   }
   .hero-section p {
     font-size: 18px;
@@ -326,7 +337,7 @@
   .phone-containt-wrap .heading-title {
     font-size: 80px;
   }
-  .phone-containt-wrap .heading-title-label,.count-number-col p {
+  .count-number-col p {
     font-size: 20px;
   }
   .heading-title, .tapfit-containt-wrap h2 {
@@ -409,7 +420,7 @@
     max-width: 260px;
   }
   .phone-containt-wrap .heading-title {
-    font-size: 30px;
+    font-size: 40px;
   }
   .people-world-swiper-wrap .profile-wrap-box {
     width: 240px;
@@ -453,6 +464,7 @@
   }
   .plan-containt h5{
     font-size: 17px;
+    margin-bottom: 10px;
   }
   .plan-containt p{
     font-size: 14px;
