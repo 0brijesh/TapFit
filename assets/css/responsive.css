@@ -99,9 +99,6 @@
   }
 }
 @media (max-width: 1599px) {
-  .web-hero-img {
-    max-width: 430px;
-  }
   .hero-mobile-img {
     max-width: 290px;
   }
@@ -182,6 +179,11 @@
   }
   .hero-content {
     transform: translateX(-95px);
+  }
+}
+@media (max-width: 1499px){
+  .web-hero-img {
+    max-width: 430px;
   }
 }
 @media (max-width: 1439px){
