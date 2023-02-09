@@ -577,6 +577,9 @@ footer {
   border-radius: 15px;
   transition: all 0.3s;
 }
+.service-box-img{
+  max-width: 70px;
+}
 /* .service-box-col:hover{
   background-color: #f1f1f1;
   border-color: var(--primary-color);
@@ -652,7 +655,7 @@ footer {
   max-width: 670px;
   text-align: center;
   position: relative;
-  left: -50px;
+  transform: translateX(-140px);
 }
 /* hero-section end */
 .line-hr{

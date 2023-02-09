@@ -89,6 +89,9 @@
   .company-logo-img-col .clogo4{
     max-width: 70px;
   }
+  .hero-content {
+    transform: translateX(-110px);
+  }
 }
 @media (min-width: 1600px){
   .plan-details-col > div{
@@ -118,9 +121,6 @@
     --section-extra-big-spacing: 130px;
     --section-big-spacing: 80px;
     --section-mid-spacing: 60px;
-  }
-  .service-box-col img{
-    max-width: 70px;
   }
   .service-box-col h5 {
     font-size: 24px;
@@ -180,6 +180,9 @@
   .plan-details-col .ico{
     top: 0;
   }
+  .hero-content {
+    transform: translateX(-95px);
+  }
 }
 @media (max-width: 1439px){
   .web-hero-img {
@@ -190,6 +193,7 @@
   } */
   .hero-content{
     max-width: 610px;
+    transform: translateX(-85px);
   }
   .hero-section h2{
     font-size: 50px;
@@ -282,6 +286,7 @@
   }
   .hero-content {
     max-width: 380px;
+    transform: translateX(-85px);
   }
   .hero-mobile-img {
     max-width: 240px;
@@ -364,7 +369,7 @@
   }
   .hero-content {
     max-width: 450px;
-    left: -70px;
+    transform: translateX(-70px);
   }
   .company-logo-section {
     padding: 10px 12px;
@@ -458,7 +463,6 @@
   }
   .hero-content {
     max-width: 550px;
-    left: -60px;
   }
   .hero-section h2 {
     font-size: 18px;
@@ -591,8 +595,8 @@
   }
   .hero-content {
     max-width: 100%;
-    left: 0;
     padding: 0 30px 30px;
+    transform: translateX(0);
 }
   .hero-section h2 {
     font-size: 24px;
